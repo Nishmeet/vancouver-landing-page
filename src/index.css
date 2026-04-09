@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --color-warm-cream: #f9f6f1;
+    --color-soft-black: #1d1916;
+    --color-terracotta: #d97757;
+  }
+
+  body {
+    @apply bg-warm-cream text-soft-black font-ibm antialiased;
+  }
+}
+
+@theme {
+  --font-inter: Inter, sans-serif;
+  --font-ibm: 'IBM Plex Serif', serif;
+  
+  --color-warm-cream: #f9f6f1;
+  --color-soft-black: #1d1916;
+  --color-terracotta: #d97757;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
