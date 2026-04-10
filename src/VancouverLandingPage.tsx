@@ -44,8 +44,16 @@ const VancouverLandingPage = () => {
       {/* Header with Logo */}
       <header className="fixed left-0 right-0 top-0 z-50 bg-warm-cream/80 backdrop-blur-md">
         <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4 md:px-12">
-          <a href="https://www.airliners.ca" target="_blank" rel="noopener noreferrer">
-            <img src={logo} alt="Airliners.ca" className="h-10 w-auto md:h-12" />
+          <a
+            href="https://www.airliners.ca"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src={logo}
+              alt="Airliners.ca"
+              className="h-10 w-auto md:h-12"
+            />
           </a>
         </div>
       </header>
@@ -159,10 +167,6 @@ const VancouverLandingPage = () => {
       <div className="fixed bottom-0 left-0 right-0 z-50 border-t border-soft-black/10 bg-warm-cream/95 backdrop-blur-md">
         <div className="mx-auto flex max-w-7xl items-center justify-between gap-4 px-6 py-5 md:px-12">
           <div className="flex flex-col gap-1 md:flex-row md:items-center md:gap-3">
-            <span className="font-inter text-base font-semibold text-soft-black md:text-lg">
-              {config.route.from} → {config.route.to}
-            </span>
-            <span className="hidden text-soft-black/30 md:inline">|</span>
             <span className="font-ibm text-sm text-soft-black/70 md:text-base">
               Non-stop flights available
             </span>
